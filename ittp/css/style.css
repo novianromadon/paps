@@ -1,0 +1,85 @@
+/* Body */
+body {
+    font-family: "Poppins";
+}
+
+
+/* Pembungkus Bagian Beranda */
+.bagian-beranda {
+    padding: 0 20px;
+    margin: 60px 0;
+    width: 100%;
+}
+
+.link-beranda {
+    border-radius: 25px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 -1px 13px 0 rgb(0 0 0 / 48%);
+    min-height: 280px;
+}
+
+
+/* Item Bagian Beranda */
+.link-item {
+    padding: 20px 26px 35px;
+    border-radius: 25px;
+    transition: ease 0.5s;
+    color: #1a1a1a;
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    transition: transform .3s;
+    text-decoration: none;
+}
+
+/* Efek Item Bagian Beranda */
+.link-item:hover {
+    background-color: #cf252b;
+    transform: scale(1.1);
+    color: white;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+
+/* Caption Bagian Beranda */
+.link-heading {
+    display: flex;
+    align-items: center;
+    height: 85px;
+}
+
+/* Icon Caption Bagian Beranda */
+.link-heading img {
+    width: auto;
+    height: 45px;
+    margin-right: 10px;
+}
+
+/* Judul Caption Bagian Beranda */
+.link-heading .link-title {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+/* Deskripsi Caption Bagian Beranda */
+.link-content {
+    font-size: 13px;
+    padding-bottom: 35px;
+}
+
+/* Button Caption Bagian Beranda */
+.link-btn {
+    background-color: #DB2C32;
+    font-size: 12px;
+    padding: 5px 8px 8px 10px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+    width: fit-content;
+    margin: auto;
+}
